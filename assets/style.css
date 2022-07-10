@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap');
+*{
+    font-family: Roboto;
+}
+.fondoOscuro{
+    background-color: #001524 !important;
+}
+.colorOscuro{
+    color: #001524 !important;
+}
+.fondoAzul{
+    background-color: #15616D !important;
+}
+.colorAzul{
+    color: #15616D !important;
+}
+.fondoCrema{
+    background-color:rgba(252, 255, 253)
+    !important;
+}
+.colorCrema{
+    color: #FFECD1 !important;
+}
+.fondoCrema2{
+    background-color: #FFDDAD !important;
+}
+.colorCrema2{
+    color: #FFDDAD !important;
+}
+.fondoNaranja{
+    background-color: #FF7D00 !important;
+}
+.colorNaranja{
+    color: #FF7D00 !important;
+}
+.fondoMarron{
+    background-color: #78290F !important;
+}
+.colorMarron{
+    color: #78290F !important;
+}
+/* -------------------------------------------------------------------------- */
+
+header{
+    background-color: rgba(42, 157, 144, 0.905);
+    height: auto;
+}
+
+h1{
+    color: black !important;
+}
+
+#botonCarrito{
+    margin-right: 3rem;
+}
+
+main{
+    min-height: 75vh;
+}
+
+
+
+#indexJugueteria{
+    background-image: url(./img/fondoJugueteria.jpg);
+    background-size: cover;
+    height: 30rem;
+}
+
+#indexFarmacia{
+    background-image: url(./img/fondoFarmacia.jpg);
+    background-size: cover;
+    height: 30rem;
+}
+
+#filtros{
+    height: 15rem;
+}
+
+textarea{
+    height: 20rem;
+    resize: none;
+}
+
+footer{
+    min-height: 15vh;
+}
+
+#carrusel{
+    height: fit-content;
+}
+
+svg {
+    color:white;
+    fill:white;
+}
+
+
+.destacadosCard{
+    width: 200px
+}
+
+
+.navSize{
+    height: 10vh;
+}
+.logo:hover { 
+    transform: scale(1.2);
+}
+
+.boxNav {
+    
+    background-color: rgba(38, 70, 83);
+    border-color: rgba(0, 0, 0, 0.747);
+    margin: 20px;
+    padding: 10px 10px 10px 10px !important;  
+    font-size: 1.2rem;
+}
+.active {
+    transform: scale(1.2);
+    font-weight: bolder;
+   
+    
+}
+
+.boxNav:hover {
+    transform: scale(1.2);
+}
+
+.divSomos{
+   height:30vh;
+}
+.btn-wsp{
+    position:fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 85px;
+    margin-left: 20px;
+    background: #0df055c4;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+  
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    color: black;
+}
+.cardProps{ 
+    background-color: rgba(42, 157, 144, 0.568);
+    
+     
+}
+
+/*--carrito de compras--*/
+.compraFinal{
+    width: 300px;
+    max-height: 350px;
+    margin: 80px auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shopping-cart {
+    width: 750px;
+    margin: 80px auto;
+    margin-right: -2rem;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+.title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color: #5E6977;
+    font-weight: 400;
+    text-align: center;
+}
+
+.item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+}
+
+
+.buttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+  }
+.delete-btn {
+    display: inline-block;
+    Cursor: pointer;
+    width: 18px;
+    height: 17px;
+}
+   
+.image {
+    margin-right: 50px;
+}
+
+
+.description {
+    padding-top: 10px;
+    margin-right: 60px;
+    width: 115px;
+}   
+
+.description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+}
+.quantity {
+    padding-top: 20px;
+    margin-right: 60px;
+}
+.quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+
+.shopping-cart button[class*=btn] {
+    width: 30px;
+    height: 30px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+.total{
+    text-align: end;
+}
+    
+    
+
+
+
+/*--farmacias y jugueteria--*/
+
+.farmaciaYJugueteria{
+    display: flex;
+    margin-top: 10px;
+    gap: 10rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.farmacia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18rem; 
+    text-decoration: none;
+    background-image: url(./img/farmacia.jpg);
+    background-size: cover ;
+    background-position: center;
+    transition: .5s;
+}
+.farmacia h2{
+    background-color: #0015245b;
+    width: 100%;
+    text-align: center;
+}
+
+.jugueteria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18rem; 
+    text-decoration: none;
+    background-image: url(./img/fondoJugueteria.jpg);
+    background-size: cover ;
+    background-position: center;
+    transition: .5s;
+}
+.jugueteria h2{
+    background-color: #0015245b;
+    width: 100%;
+    text-align: center;
+}
+.cardsBorders { 
+    border: solid  rgba(42, 157, 144, 0.568) ;
+}
+
+.jugueteria:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 10px black;
+    overflow: auto;
+}
+.farmacia:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 10px black;
+    overflow: auto;
+}
+
+
+/* media queries */
+
+@media screen and (max-width:450px) {
+
+    .responsiveFooter{ 
+       flex-direction: column !important;
+    }
+
+    .socialResponsive { 
+        justify-content: center;
+    }
+
+    .responsiveFoot {
+        margin-top: 15px;
+    }
+
+    .responsiveMapsDiv{
+        flex-direction: column;
+        text-align: center;
+    }
+    .mapsResponsive { 
+        transform: scale(.75);
+    }
+    .imgResponsiveQuienesSomos { 
+        transform: scale(.626);
+    }
+    
+
+.headerSize { 
+    height: fit-content;
+}
+.boxNav { 
+    width: fit-content;
+    font-size: small;
+    padding: 0px;
+    margin: 7px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.747);
+    
+}
+.navv {
+    align-items: center;
+}
+.h3Nav{ 
+    display: none;
+}
+.divSomos{
+    height:53vh;
+ }
+
+ .btn-wsp{
+    display: none;
+    
+  }
+
+  .mapsResponsive { 
+      width: 75vw;
+      height: auto;
+      margin-top: 10px;
+  }
+  footer { 
+      height: auto;
+  }
+  .responsiveFoot2 { 
+      align-items: center !important;
+      padding-top: 10px;
+  }
+  .fondoCrema2 { 
+    margin-top: 10px !important;
+}
+  
+ }
+
+
+
+@media screen and (max-width:768px){ 
+    .cardaux768{
+        display: none;
+    }
+    .filtros768
+    {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 5rem;
+        display: flex;
+        justify-content: center ;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .cards768{
+        justify-content: center;
+    }
+    .form768{
+        width: 48rem;
+        height: 3rem !important;
+        display: flex;
+        flex-direction: row !important;
+        align-items: center;
+    }
+    .hambur768{
+        order: 1;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    .wpp1024{
+        z-index: 1;
+    }
+    .boton1024{
+        flex-direction: column;
+        height: 5rem;
+        width: 10rem !important;
+    }
+}
